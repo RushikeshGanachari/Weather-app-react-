@@ -6,7 +6,7 @@ function App() {
   const [weather, setWeather] = useState({});
   
   const getApiUrl = (city) => {
-    const apiKey = "8e110047d5069b53cdbcd1e7c314ff2e";
+    const apiKey = "(Add your api key here)";
     return `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${apiKey}`;
   }
   
